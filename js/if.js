@@ -13,3 +13,11 @@ let exercise1 = prompt("Enter a number");
 */
 
 });
+let userInput=prompt("Please guess a number, we will check if it greater than 5");
+if (userInput > 5) {
+    console.log(userInput + "is greater than 5");
+} else if (userInput < 5) {
+    console.log (userInput + "is lower than 5")
+} else {
+    console.log(userInput + "is equal 5")
+}
