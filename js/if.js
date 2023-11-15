@@ -13,11 +13,21 @@ let exercise1 = prompt("Enter a number");
 */
 
 });
-//EXERCISE 1
+/*EXERCISE 1
 let userInput=prompt("Please guess a number, we will check if it greater than 5");
 if (userInput > 5) {
     console.log(userInput + " is greater than 5");
     document.querySelector(".exercise-1").textContent = (userInput + " is greater than 5");
+}
+*/
+// EXERCISE 2
+let userInput=prompt("Please guess a number, we will check if it greater than 5");
+if (userInput > 5) {
+    console.log(userInput + " is greater than 5");
+    document.querySelector(".exercise-2").textContent = userInput + " is greater than 5";
+} else if (userInput < 5) {
+    console.log (userInput + " is lower than 5")
+    document.querySelector(".exercise-2").textContent = userInput + " is lower than 5";
 }
 /*EXERCISE 3
 let userInput=prompt("Please guess a number, we will check if it greater than 5");
