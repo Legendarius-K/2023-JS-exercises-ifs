@@ -20,7 +20,7 @@ if (userInput > 5) {
     document.querySelector(".exercise-1").textContent = (userInput + " is greater than 5");
 }
 */
-// EXERCISE 2
+/* EXERCISE 2
 let userInput=prompt("Please guess a number, we will check if it greater than 5");
 if (userInput > 5) {
     console.log(userInput + " is greater than 5");
@@ -29,6 +29,7 @@ if (userInput > 5) {
     console.log (userInput + " is lower than 5")
     document.querySelector(".exercise-2").textContent = userInput + " is lower than 5";
 }
+*/
 /*EXERCISE 3
 let userInput=prompt("Please guess a number, we will check if it greater than 5");
 if (userInput > 5) {
@@ -41,4 +42,26 @@ if (userInput > 5) {
     console.log(userInput + " is equal 5")
     document.querySelector(".exercise-3").textContent = userInput + " is equal 5";
 }
+*/
+/*EXERCISE 4-version 1
+let userInputNoParse=prompt("insert a number you want tobe displayed 10 times","write here");
+console.log(userInputNoParse.repeat(10));
+console.log(typeof userInputNoParse);
+document.querySelector(".exercise-4").textContent = userInputNoParse.repeat(10);
+
+let userInputParse=prompt("PARSED number");
+console.log(parseInt(userInputParse.repeat(10)));
+console.log(typeof userInputParse);
+document.querySelector(".exercise-4").textContent = userInputParse.repeat(10);
+*/
+/*EXERCISE 4-version 2 - parse in moved to prompt
+let userInputNoParse=prompt("insert a number you want tobe displayed 10 times","write here");
+console.log(userInputNoParse.repeat(10));
+console.log(typeof userInputNoParse);
+document.querySelector(".exercise-4").textContent = userInputNoParse.repeat(10);
+
+let userInputParse=parseInt(prompt("PARSED number"));
+console.log(""+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse);
+console.log(typeof userInputParse);
+document.querySelector(".exercise-4").textContent = ""+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse;
 */
