@@ -20,7 +20,7 @@ if (userInput > 5) {
     document.querySelector(".exercise-1").textContent = (userInput + " is greater than 5");
 }
 */
-// EXERCISE 2
+/* EXERCISE 2
 let userInput=prompt("Please guess a number, we will check if it greater than 5");
 if (userInput > 5) {
     console.log(userInput + " is greater than 5");
@@ -29,6 +29,7 @@ if (userInput > 5) {
     console.log (userInput + " is lower than 5")
     document.querySelector(".exercise-2").textContent = userInput + " is lower than 5";
 }
+*/
 /*EXERCISE 3
 let userInput=prompt("Please guess a number, we will check if it greater than 5");
 if (userInput > 5) {
@@ -42,3 +43,7 @@ if (userInput > 5) {
     document.querySelector(".exercise-3").textContent = userInput + " is equal 5";
 }
 */
+//EXERCISE 4
+let userInput=prompt("insert a number you want tobe displayed 10 times","write here");
+console.log(userInput.repeat(10));
+document.querySelector(".exercise-4").textContent = userInput.repeat(10);
