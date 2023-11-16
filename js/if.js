@@ -57,14 +57,31 @@ let exercise1 = prompt("Enter a number");
 
 // EXERCISE 7:
 
-let exercise7 = prompt("Enter a number");
+// let exercise7 = prompt("Enter a number");
 
-if (exercise7 < 5) {
-    alert ("Your number is less than five!");
-} else if (exercise7 >= 5 && exercise7 <= 10) {
-    alert ("Your number is neither less than five or greater than ten");
-} else if (exercise7 > 10) {
-    alert("Your number is greater than ten!")
+// if (exercise7 < 5) {
+//     alert ("Your number is less than five!");
+// } else if (exercise7 >= 5 && exercise7 <= 10) {
+//     alert ("Your number is neither less than five or greater than ten");
+// } else if (exercise7 > 10) {
+//     alert("Your number is greater than ten!")
+// }
+
+// EXERCISE 8:
+
+let userNumber1 = prompt("enter a number");
+
+let userNumber2 = prompt("Enter another number");
+
+if (userNumber1 > userNumber2) {
+    alert(userNumber1 + " is greater than " + userNumber2);
+} else if (userNumber2 > userNumber1) {
+    alert (userNumber2 + " is greater than " + userNumber1);
+} else if (userNumber1 == userNumber2) {
+    this.alert("Number " + userNumber1 + " number " + userNumber2 + " are equal.");
 }
+
+//breaks sometimes, e.g. when userNumber1 = 45 and userNumber2=345, result is "45 is greater than 345"
+//after restarting it works a few times then it breaks 
 
 });
