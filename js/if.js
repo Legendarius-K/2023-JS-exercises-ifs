@@ -69,19 +69,34 @@ let exercise1 = prompt("Enter a number");
 
 // EXERCISE 8:
 
-let userNumber1 = prompt("enter a number");
+// let userNumber1 = prompt("enter a number");
 
-let userNumber2 = prompt("Enter another number");
+// let userNumber2 = prompt("Enter another number");
 
-if (userNumber1 > userNumber2) {
-    alert(userNumber1 + " is greater than " + userNumber2);
-} else if (userNumber2 > userNumber1) {
-    alert (userNumber2 + " is greater than " + userNumber1);
-} else if (userNumber1 == userNumber2) {
-    this.alert("Number " + userNumber1 + " number " + userNumber2 + " are equal.");
-}
+// if (userNumber1 > userNumber2) {
+//     alert(userNumber1 + " is greater than " + userNumber2);
+// } else if (userNumber2 > userNumber1) {
+//     alert (userNumber2 + " is greater than " + userNumber1);
+// } else if (userNumber1 == userNumber2) {
+//     this.alert("Number " + userNumber1 + " number " + userNumber2 + " are equal.");
+// }
 
 //breaks sometimes, e.g. when userNumber1 = 45 and userNumber2=345, result is "45 is greater than 345"
 //after restarting it works a few times then it breaks 
 
+// EXERCISE 9:
+
+let userNumber1 = prompt("Enter a number");
+
+let userNumber2 = prompt("Enter a second number, different to the first number");
+
+let userNumber3 = prompt("Enter a third number, different to the first and second number");
+
+const USER_NUMBERS = [userNumber1, userNumber2, userNumber3]; 
+
+console.log(USER_NUMBERS);
+
+const SORTED_NUMBERS = USER_NUMBERS.sort();
+
+alert(SORTED_NUMBERS);
 });
