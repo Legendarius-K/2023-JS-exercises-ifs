@@ -43,7 +43,7 @@ if (userInput > 5) {
     document.querySelector(".exercise-3").textContent = userInput + " is equal 5";
 }
 */
-/*EXERCISE 4
+/*EXERCISE 4-version 1
 let userInputNoParse=prompt("insert a number you want tobe displayed 10 times","write here");
 console.log(userInputNoParse.repeat(10));
 console.log(typeof userInputNoParse);
@@ -53,4 +53,15 @@ let userInputParse=prompt("PARSED number");
 console.log(parseInt(userInputParse.repeat(10)));
 console.log(typeof userInputParse);
 document.querySelector(".exercise-4").textContent = userInputParse.repeat(10);
+*/
+/*EXERCISE 4-version 2 - parse in moved to prompt
+let userInputNoParse=prompt("insert a number you want tobe displayed 10 times","write here");
+console.log(userInputNoParse.repeat(10));
+console.log(typeof userInputNoParse);
+document.querySelector(".exercise-4").textContent = userInputNoParse.repeat(10);
+
+let userInputParse=parseInt(prompt("PARSED number"));
+console.log(""+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse);
+console.log(typeof userInputParse);
+document.querySelector(".exercise-4").textContent = ""+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse;
 */
