@@ -12,14 +12,33 @@ Eg:
 let exercise1 = prompt("Enter a number");
 */
 
-let exercise1 = prompt("Enter a number");
+// let exercise1 = prompt("Enter a number");
 
-if (exercise1 > 5) {
-    console.log(exercise1 + " is greater than 5")
-} else if (exercise1 < 5) {
-    console.log(exercise1 + " is less than 5")
+// if (exercise1 > 5) {
+//     console.log(exercise1 + " is greater than 5")
+// } else if (exercise1 < 5) {
+//     console.log(exercise1 + " is less than 5")
+// } else {
+//     console.log(exercise1 + " is equal to 5")
+// }   
+
+// let exercise4 = prompt("Enter a number!")
+
+// console.log(exercise4 * 10)
+// console.log(typeof parseInt(exercise4))
+
+
+let exercise5 = prompt ("Enter a number!!");
+
+if (exercise5 < 5) {
+    console.log(exercise5 + " is not a number between 5 and 10.")
+} else if (exercise5 > 10) {
+    console.log(exercise5 + " is not a number between 5 and 10.")
 } else {
-    console.log(exercise1 + " is equal to 5")
-}   
+    console.log(exercise5 + " is a number between 5 and 10!")
+}
+
+
+
 
 });
