@@ -59,5 +59,46 @@ let exercise1 = prompt("Enter a number");
 //     console.log(exercise8_2 + " is equal to " + exercise8_1)
 // }
 
+// let userInput = prompt("Enter three number seperated by commas (,)")
 
+// let numbersArray = userInput.split(',');
+
+// let number1 = parseInt(numbersArray[0]);
+// let number2 = parseInt(numbersArray[1]);
+// let number3 = parseInt(numbersArray[2]);
+
+// let numbers = [number1, number2, number3];
+
+// numbers.sort(function(a, b) {
+//     return b - a;
+// });
+
+// console.log("Your number in descending order: " + numbers);
+
+let userAnimal = prompt("Do you prefer cats or dogs?")
+let catRace;
+let dogRace;
+
+if (userAnimal === "cats"){
+    catRace = prompt("Do you prefer tabby or tiger?");
+
+    if (catRace === "tabby"){
+        console.log("I prefer " + catRace + "s and they say meow")
+    } else if (catRace === "tiger"){
+        console.log("I prefer " + catRace + "s and they say growl")
+    } else {
+        console.log("Invalid race entered")
+    } 
+
+} else if (userAnimal === "dogs") {
+    dogRace = prompt("Do you prefer chihuahua or wolf?");
+
+    if (dogRace === "chihuahua"){
+        console.log("I prefer " + dogRace + "s and the say yap")
+    } else if (dogRace === "wolf") {
+        console.log("I prefer " + dogRace + "s and the say howl")
+    } else {
+        console.log("Invalid race entered")
+    }       
+}
 });
