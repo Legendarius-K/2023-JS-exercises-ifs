@@ -76,9 +76,43 @@ window.addEventListener('load', function () {
     let exercise9_1 = prompt("Enter your first number")
     let exercise9_2 = prompt("Enter your second number")
     let exercise9_3 = prompt("Enter your third number")
-    if (exercise9_1 > exercise9_2 > exercise9_3 ){
-        alert
-    }
+    if (exercise9_1 > exercise9_2 && exercise9_3 ){
+        if (exercise9_2 > exercise9_3) {
+            alert("Your first number was the largest, and the second number was second largest and the third number was smallest")
+        } else if (exercise9_3 > exercise9_2) {
+            alert("Your first number was the largest, and the third number was second largest and the second number was smallest")
+        }
+    } else if (exercise9_2 > exercise9_1 && exercise9_3 ){
+        if (exercise9_1 > exercise9_3) {
+            alert("Your second number was the largest, and the first number was second largest and the third number was smallest")
+        } else if (exercise9_3 > exercise9_1) {
+            alert("Your second number was the largest, and the third number was second largest and the first number was smallest")
+        }
+    }else if (exercise9_3 > exercise9_2 && exercise9_1 ) {
+        if (exercise9_2 > exercise9_1)  {
+            alert("Your third number was the largest, and the second number was second largest and the first number was smallest")
+        } else if (exercise9_1 > exercise9_2) {
+            alert("Your third number was the largest, and the first number was second largest and the second number was smallest")
+        }
+    } 
+
     //Exercise 10
+
+    let exercise10_1 = prompt("Are you a cat or dog person?")
+    if (exercise10_1 == "cat") {
+        let cat = prompt("Do you prefer a tabby or a tigger?") 
+        if (cat == "tabby") {
+            alert("A tabby says 'Miaow'")
+        } else if (cat == "tigger"){
+            alert("A tiger says 'growl'")
+        }
+    } else if (exercise10_1 == "dog") {
+        let dog = prompt("Do ypu prefer a chihuahua or a wolf?")
+        if (dog = chihuahua) {
+            alert("A chihuahua says 'yap'")
+        } else if (dig == "wolf"){
+            alert("A wolf says 'howl'")
+        }
+    }
 
 });
