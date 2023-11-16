@@ -48,10 +48,23 @@ let exercise1 = prompt("Enter a number");
 
 // EXERCISE 6:
 
-let exercise6 = prompt("Enter a number");
+// let exercise6 = prompt("Enter a number");
 
-if (exercise6 < 5 || exercise6 > 10) {
-    alert("yes");
-} else { alert("no") }
+// if (exercise6 < 5 || exercise6 > 10) {
+//     alert("yes");
+// } else { alert("no") }
+
+
+// EXERCISE 7:
+
+let exercise7 = prompt("Enter a number");
+
+if (exercise7 < 5) {
+    alert ("Your number is less than five!");
+} else if (exercise7 >= 5 && exercise7 <= 10) {
+    alert ("Your number is neither less than five or greater than ten");
+} else if (exercise7 > 10) {
+    alert("Your number is greater than ten!")
+}
 
 });
