@@ -80,7 +80,7 @@ if (!userGuess) {
     }
 }
 */
-//EXERCISE 6 - ask the user to enter a number and show if it is less than 5 or greater than 10 - just a yes or no answer is required
+/*EXERCISE 6 - ask the user to enter a number and show if it is less than 5 or greater than 10 - just a yes or no answer is required
 let userNumber=parseFloat(prompt("Please insert a number. Is this number less then 5 or greater then 10? YES/NO"));
 if (!userNumber) {
     console.log("empty or not valid input");
@@ -93,4 +93,18 @@ if (!userNumber) {
         document.querySelector(".exercise-6").textContent= "NO";
     }
 }
-
+*/
+/* EXERCISE 7 -ask the user to enter a number and show if it is less than 5 or greater than 10 or neither - show which one it is
+let userNumber=parseFloat(prompt("Please insert a number. Is this number less then 5 or greater then 10 or neither? SHOW THE NUMBER"));
+if (!userNumber) {
+    console.log("empty or not valid input");
+} else {
+    if (userNumber < 5 || userNumber> 10) {
+        console.log(userNumber + " is either lower then 5 or greater then 10");
+        document.querySelector(".exercise-7").textContent= userNumber + " is either lower then 5 or greater then 10";
+    } else {
+        console.log(userNumber + " is NEITHER lower then 5 or greater then 10");
+        document.querySelector(".exercise-7").textContent= userNumber + " is NEITHER lower then 5 or greater then 10";
+    }
+}
+*/
