@@ -95,16 +95,33 @@ if (!userNumber) {
 }
 */
 /* EXERCISE 7 -ask the user to enter a number and show if it is less than 5 or greater than 10 or neither - show which one it is
-let userNumber=parseFloat(prompt("Please insert a number. Is this number less then 5 or greater then 10 or neither? SHOW THE NUMBER"));
+let userNumber=parseFloat(prompt("Please insert a number. Is this number less then 5 or greater than 10 or neither? SHOW THE NUMBER"));
 if (!userNumber) {
     console.log("empty or not valid input");
 } else {
     if (userNumber < 5 || userNumber> 10) {
         console.log(userNumber + " is either lower then 5 or greater then 10");
-        document.querySelector(".exercise-7").textContent= userNumber + " is either lower then 5 or greater then 10";
+        document.querySelector(".exercise-7").textContent= userNumber + " is either lower then 5 or greater than 10";
     } else {
         console.log(userNumber + " is NEITHER lower then 5 or greater then 10");
-        document.querySelector(".exercise-7").textContent= userNumber + " is NEITHER lower then 5 or greater then 10";
+        document.querySelector(".exercise-7").textContent= userNumber + " is NEITHER lower then 5 or greater than 10";
     }
 }
 */
+// EXERCISE 8 -ask the user to enter two numbers and show which is larger
+let numberOne=parseFloat(prompt("Please insert the FIRST number"));
+let numberTwo=parseFloat(prompt("Please insert the SECOND number"));
+if (!numberOne || !numberTwo) {
+    console.log("at least one of the number is not a valid imput or it is empty");
+} else {
+    if (numberOne>numberTwo) {
+        console.log(numberOne + " is greater than " + numberTwo);
+        document.querySelector(".exercise-8").textContent=numberOne + " is greater than " + numberTwo;
+    } else if (numberOne<numberTwo) {
+        console.log( numberTwo + " is greater than " + numberOne);
+        document.querySelector(".exercise-8").textContent=numberTwo + " is greater than " + numberOne;
+    } else {
+        console.log(numberOne + " is equal " + numberTwo);
+        document.querySelector(".exercise-8").textContent=numberOne + " is equal " + numberTwo;
+    }
+}
