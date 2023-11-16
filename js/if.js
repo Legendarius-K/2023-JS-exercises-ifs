@@ -65,3 +65,19 @@ console.log(""+userInputParse+userInputParse+userInputParse+userInputParse+userI
 console.log(typeof userInputParse);
 document.querySelector(".exercise-4").textContent = ""+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse+userInputParse;
 */
+/*EXERCISE 5-ask the user to enter a number and show if it is between 5 and 10, inclusive
+let userGuess= parseFloat(prompt("please insert anumber? the program will check if it is between 5 and 10 inclusive"));
+if (!userGuess) {
+    console.log("input emty or not valid");
+    document.querySelector(".exercise-5").textContent= "input emty or not valid";
+} else {
+    if (userGuess >= 5 && userGuess<=10) {
+        console.log(userGuess + " is a number between 5 and 10- inclusive");
+        document.querySelector(".exercise-5").textContent= userGuess + " is a number between 5 and 10- inclusive";
+    } else {
+        console.log(userGuess + " is NOT a number between 5 and 10 - inclusive");
+        document.querySelector(".exercise-5").textContent= userGuess + " is NOT a number between 5 and 10- inclusive";
+    }
+}
+*/
+
