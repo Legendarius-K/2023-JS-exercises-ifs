@@ -12,7 +12,8 @@ window.addEventListener('load', function () {
     let exercise1 = prompt("Enter a number");
     */
 
-    //Exercise 1,2,3
+    //Exercise 1,2,3 
+   
     let userInput = prompt("Enter a number");
 
     if (userInput > 5) {
@@ -73,10 +74,17 @@ window.addEventListener('load', function () {
     }
 
     //Exercise 9
-    let exercise9_1 = prompt("Enter your first number")
-    let exercise9_2 = prompt("Enter your second number")
-    let exercise9_3 = prompt("Enter your third number")
-    if (exercise9_1 > exercise9_2 && exercise9_3 ){
+   
+    let exercise9_1 = prompt("Enter your first number");
+    let exercise9_2 = prompt("Enter your second number");
+    let exercise9_3 = prompt("Enter your third number");
+
+  // Convert input to numbers
+    exercise9_1 = parseFloat(exercise9_1);
+    exercise9_2 = parseFloat(exercise9_2);
+    exercise9_3 = parseFloat(exercise9_3);
+    
+        if (exercise9_1 > exercise9_2 && exercise9_3 ){
         if (exercise9_2 > exercise9_3) {
             alert("Your first number was the largest, and the second number was second largest and the third number was smallest")
         } else if (exercise9_3 > exercise9_2) {
@@ -88,7 +96,7 @@ window.addEventListener('load', function () {
         } else if (exercise9_3 > exercise9_1) {
             alert("Your second number was the largest, and the third number was second largest and the first number was smallest")
         }
-    }else if (exercise9_3 > exercise9_2 && exercise9_1 ) {
+    } else if (exercise9_3 > exercise9_2 && exercise9_1 ){
         if (exercise9_2 > exercise9_1)  {
             alert("Your third number was the largest, and the second number was second largest and the first number was smallest")
         } else if (exercise9_1 > exercise9_2) {
@@ -98,20 +106,23 @@ window.addEventListener('load', function () {
 
     //Exercise 10
 
-    let exercise10_1 = prompt("Are you a cat or dog person?")
-    if (exercise10_1 == "cat") {
-        let cat = prompt("Do you prefer a tabby or a tigger?") 
-        if (cat == "tabby") {
-            alert("A tabby says 'Miaow'")
-        } else if (cat == "tigger"){
-            alert("A tiger says 'growl'")
+    let exercise10_1 = prompt("Are you a cat or dog person?");
+
+    if (exercise10_1 === "cat") {
+        let cat = prompt("Do you prefer a tabby or a tiger?");  
+        
+        if (cat === "tabby") {
+            alert("A tabby says 'Miaow'");
+        } else if (cat === "tiger") {
+            alert("A tiger says 'growl'");
         }
-    } else if (exercise10_1 == "dog") {
-        let dog = prompt("Do ypu prefer a chihuahua or a wolf?")
-        if (dog = chihuahua) {
-            alert("A chihuahua says 'yap'")
-        } else if (dig == "wolf"){
-            alert("A wolf says 'howl'")
+    } else if (exercise10_1 === "dog") {
+        let dog = prompt("Do you prefer a chihuahua or a wolf?");
+        
+        if (dog === "chihuahua") { 
+            alert("A chihuahua says 'yap'");
+        } else if (dog === "wolf") {
+            alert("A wolf says 'howl'");
         }
     }
 
