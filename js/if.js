@@ -183,4 +183,40 @@ A tabby says "miaow", tigers "growl", a chihuahua says "yap" and a wolf likes to
 Show the user their chosen breed and what it says
 
 Note: both you & the user will have to spell the breeds correctly for this to work 
+
+(!userAnswer || userAnswer!=="cat" || userAnswer!=="dog")
+
+let userAnswer=prompt("User: are you a cat or dog person?");
+
+let animalSound;
+
+if (!userAnswer || userAnswer!=="cat" && userAnswer!=="dog") {
+    console.log("Input empty or not valid");
+} else {
+    if (userAnswer==="cat") {
+        let userAnswerCat= prompt("do you prefer a tabby or a tiger?");
+        if (!userAnswerCat || userAnswerCat!=="tabby" && userAnswerCat!=="tiger") {
+            console.log ("Input empty or not valid");
+        } else {
+            if (userAnswerCat==="tabby") {
+                animalSound="miaow";
+            } else if (userAnswerCat==="tiger") {
+                animalSound= "growl";
+            }
+            alert("You are a " + userAnswer+ " person that likes "+ userAnswerCat + " "+userAnswer  +"s. They say "+ animalSound );
+        }
+    } else if (userAnswer==="dog") {
+        let userAnswerDog= prompt("do you prefer a chihuahua or a wolf?");
+        if (!userAnswerDog || userAnswerDog!=="chihuahua" && userAnswerDog!=="wolf") {
+            console.log ("Input empty or not valid");
+        } else {
+            if (userAnswerDog=== "chihuahua") {
+                animalSound= "yap";
+            } else if (userAnswerDog==="wolf") {
+                animalSound= "howl";
+            }
+            alert("You are a " + userAnswer+ " person that likes "+ userAnswerDog +" "+ userAnswer+"s. They say "+ animalSound );
+        }
+    }
+}
 */
