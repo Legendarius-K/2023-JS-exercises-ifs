@@ -12,4 +12,14 @@ Eg:
 let exercise1 = prompt("Enter a number");
 */
 
+let exercise1 = prompt("Enter a number");
+
+if (exercise1 > 5) {
+    console.log(exercise1 + " is greater than 5")
+} else if (exercise1 < 5) {
+    console.log(exercise1 + " is less than 5")
+} else {
+    console.log(exercise1 + " is equal to 5")
+}   
+
 });
