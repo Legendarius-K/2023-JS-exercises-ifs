@@ -39,10 +39,19 @@ let exercise1 = prompt("Enter a number");
 
 // EXERCISE 5:
 
-let exercise5 = prompt("Enter any number");
+// let exercise5 = prompt("Enter any number");
 
-if (exercise5 >= 5 && exercise5 <= 10) {
-    alert("yes"); 
-} else { alert ("no") } 
+// if (exercise5 >= 5 && exercise5 <= 10) {
+//     alert("yes"); 
+// } else { alert ("no") } 
+
+
+// EXERCISE 6:
+
+let exercise6 = prompt("Enter a number");
+
+if (exercise6 < 5 || exercise6 > 10) {
+    alert("yes");
+} else { alert("no") }
 
 });
