@@ -25,17 +25,24 @@ let exercise1 = prompt("Enter a number");
 
 // EXERCISE 4:
 
-let userNumber = prompt("Enter any number");
+// let userNumber = prompt("Enter any number");
 
-console.log(10 * userNumber);
+// console.log(10 * userNumber);
 
-let secondUserNumber = prompt("Enter a new number");
+// let secondUserNumber = prompt("Enter a new number");
 
-console.log(typeof secondUserNumber);
+// console.log(typeof secondUserNumber);
 
-let thirdUserNumber = prompt("Enter a third number");
+// let thirdUserNumber = prompt("Enter a third number");
 
-console.log(typeof (parseInt (thirdUserNumber)));
+// console.log(typeof (parseInt (thirdUserNumber)));
 
+// EXERCISE 5:
+
+let exercise5 = prompt("Enter any number");
+
+if (exercise5 >= 5 && exercise5 <= 10) {
+    alert("yes"); 
+} else { alert ("no") } 
 
 });
