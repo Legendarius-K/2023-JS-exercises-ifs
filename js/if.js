@@ -80,4 +80,17 @@ if (!userGuess) {
     }
 }
 */
+//EXERCISE 6 - ask the user to enter a number and show if it is less than 5 or greater than 10 - just a yes or no answer is required
+let userNumber=parseFloat(prompt("Please insert a number. Is this number less then 5 or greater then 10? YES/NO"));
+if (!userNumber) {
+    console.log("empty or not valid input");
+} else {
+    if (userNumber < 5 || userNumber> 10) {
+        console.log("YES");
+        document.querySelector(".exercise-6").textContent= "YES";
+    } else {
+        console.log("NO");
+        document.querySelector(".exercise-6").textContent= "NO";
+    }
+}
 
