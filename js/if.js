@@ -30,10 +30,10 @@ let exercise1 = prompt("Enter a number");
 
 // let exercise5 = prompt ("Enter a number!!");
 
-// if (exercise5 < 5 || exercise5 > 10) {
-//     console.log(exercise5 + " is not a number between 5 and 10.")
-// } else {
+// if (!(exercise5 < 5) && !(exercise5 > 10)) {
 //     console.log(exercise5 + " is a number between 5 and 10!")
+// } else {
+//     console.log(exercise5 + " is not a number between 5 and 10.")
 // }
 
 // if (exercise5 < 5) {
@@ -67,21 +67,15 @@ let exercise1 = prompt("Enter a number");
 //     console.log(exercise8_2 + " is equal to " + exercise8_1)
 // }
 
-// let userInput = prompt("Enter three number seperated by commas (,)")
+let userInput = prompt("Enter 5 numbers")
 
-// let numbersArray = userInput.split(',');
+let numbersArray = userInput.split(' ');
 
-// let number1 = parseInt(numbersArray[0]);
-// let number2 = parseInt(numbersArray[1]);
-// let number3 = parseInt(numbersArray[2]);
+// let numbers = [0, 1, 2, 3, 4];
 
-// let numbers = [number1, number2, number3];
+numbersArray.sort((a,b) => b-a)
 
-// numbers.sort(function(a, b) {
-//     return b - a;
-// });
-
-// console.log("Your number in descending order: " + numbers);
+console.log("Your number in descending order: " + numbersArray);
 
 // let userAnimal = prompt("Do you prefer cats or dogs?")
 // let catRace;
