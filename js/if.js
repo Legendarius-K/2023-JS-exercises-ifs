@@ -86,16 +86,33 @@ let exercise1 = prompt("Enter a number");
 
 // EXERCISE 9:
 
-let userInput = prompt ("Enter any three numbers");
-let numbersArray = userInput.split(' ');
+// let userInput = prompt ("Enter any three numbers");
+// let numbersArray = userInput.split(' ');
 
-console.log(numbersArray);
+// console.log(numbersArray);
 
-let descendingNumbers = numbersArray.sort((a,b)=>b-a);
+// let descendingNumbers = numbersArray.sort((a,b)=>b-a);
 
-console.log(descendingNumbers);
+// console.log(descendingNumbers);
 
-alert("Your numbers in descending order: " + descendingNumbers);
+// alert("Your numbers in descending order: " + descendingNumbers);
 
+
+// EXERCISE 10:
+
+let catOrDogPerson = prompt("Are you a cat or a dog person?");
+
+if (catOrDogPerson == "cat") {
+    let catSound = prompt("Do you prefer a tabby or a tiger?");
+            if (catSound == "tabby") {
+            alert("miaow");
+        } else if (catSound == "tiger") {
+            alert("growl"); }
+} else if (catOrDogPerson == "dog") {
+    let dogSound = prompt("Do you prefer a chihuahua or a wolf?");
+        if (dogSound == "chihuahua") {
+            alert("yap"); 
+        } else if (dogSound == "wolf") {
+            alert("howl");
+        } }
 });
-
