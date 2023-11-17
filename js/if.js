@@ -13,7 +13,7 @@ window.addEventListener('load', function () {
     */
 
     //Exercise 1,2,3 
-   
+   /*
     let userInput = prompt("Enter a number");
 
     if (userInput > 5) {
@@ -74,15 +74,15 @@ window.addEventListener('load', function () {
     }
 
     //Exercise 9
-   
+ */  
     let exercise9_1 = prompt("Enter your first number");
     let exercise9_2 = prompt("Enter your second number");
     let exercise9_3 = prompt("Enter your third number");
 
   // Convert input to numbers
-    exercise9_1 = parseFloat(exercise9_1);
-    exercise9_2 = parseFloat(exercise9_2);
-    exercise9_3 = parseFloat(exercise9_3);
+    exercise9_1 = parseInt(exercise9_1);
+    exercise9_2 = parseInt(exercise9_2);
+    exercise9_3 = parseInt(exercise9_3);
     
         if (exercise9_1 > exercise9_2 && exercise9_3 ){
         if (exercise9_2 > exercise9_3) {
