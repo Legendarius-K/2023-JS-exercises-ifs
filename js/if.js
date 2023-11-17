@@ -30,6 +30,12 @@ let exercise1 = prompt("Enter a number");
 
 // let exercise5 = prompt ("Enter a number!!");
 
+// if (exercise5 < 5 || exercise5 > 10) {
+//     console.log(exercise5 + " is not a number between 5 and 10.")
+// } else {
+//     console.log(exercise5 + " is a number between 5 and 10!")
+// }
+
 // if (exercise5 < 5) {
 //     console.log(exercise5 + " is not a number between 5 and 10.")
 // } else if (exercise5 > 10) {
@@ -37,6 +43,8 @@ let exercise1 = prompt("Enter a number");
 // } else {
 //     console.log(exercise5 + " is a number between 5 and 10!")
 // }
+
+
 
 // let exercise7 = prompt ("Enter a number!!");
 
@@ -75,30 +83,30 @@ let exercise1 = prompt("Enter a number");
 
 // console.log("Your number in descending order: " + numbers);
 
-let userAnimal = prompt("Do you prefer cats or dogs?")
-let catRace;
-let dogRace;
+// let userAnimal = prompt("Do you prefer cats or dogs?")
+// let catRace;
+// let dogRace;
 
-if (userAnimal === "cats"){
-    catRace = prompt("Do you prefer tabby or tiger?");
+// if (userAnimal === "cats"){
+//     catRace = prompt("Do you prefer tabby or tiger?");
 
-    if (catRace === "tabby"){
-        console.log("I prefer " + catRace + "s and they say meow")
-    } else if (catRace === "tiger"){
-        console.log("I prefer " + catRace + "s and they say growl")
-    } else {
-        console.log("Invalid race entered")
-    } 
+//     if (catRace === "tabby"){
+//         console.log("I prefer " + catRace + "s and they say meow")
+//     } else if (catRace === "tiger"){
+//         console.log("I prefer " + catRace + "s and they say growl")
+//     } else {
+//         console.log("Invalid race entered")
+//     } 
 
-} else if (userAnimal === "dogs") {
-    dogRace = prompt("Do you prefer chihuahua or wolf?");
+// } else if (userAnimal === "dogs") {
+//     dogRace = prompt("Do you prefer chihuahua or wolf?");
 
-    if (dogRace === "chihuahua"){
-        console.log("I prefer " + dogRace + "s and the say yap")
-    } else if (dogRace === "wolf") {
-        console.log("I prefer " + dogRace + "s and the say howl")
-    } else {
-        console.log("Invalid race entered")
-    }       
-}
+//     if (dogRace === "chihuahua"){
+//         console.log("I prefer " + dogRace + "s and the say yap")
+//     } else if (dogRace === "wolf") {
+//         console.log("I prefer " + dogRace + "s and the say howl")
+//     } else {
+//         console.log("Invalid race entered")
+//     }       
+// }
 });
