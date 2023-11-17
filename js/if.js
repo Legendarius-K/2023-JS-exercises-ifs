@@ -86,31 +86,16 @@ let exercise1 = prompt("Enter a number");
 
 // EXERCISE 9:
 
-// let userNumber1 = prompt("Enter a number");
-
-// let userNumber2 = prompt("Enter a second number, different to the first number");
-
-// let userNumber3 = prompt("Enter a third number, different to the first and second number");
-
-// const USER_NUMBERS = [userNumber1, userNumber2, userNumber3]; 
-
-// console.log(USER_NUMBERS);
-
-// const SORTED_NUMBERS = USER_NUMBERS.sort();
-
-// alert(SORTED_NUMBERS);
-
 let userInput = prompt ("Enter any three numbers");
+let numbersArray = userInput.split(' ');
 
-console.log("User input is: " + userInput);
+console.log(numbersArray);
 
-let separateNumbers = userInput.split( );
+let descendingNumbers = numbersArray.sort((a,b)=>b-a);
 
-console.log(separateNumbers);
-
-let descendingNumbers = separateNumbers.sort();
+console.log(descendingNumbers);
 
 alert("Your numbers in descending order: " + descendingNumbers);
 
-
 });
+
