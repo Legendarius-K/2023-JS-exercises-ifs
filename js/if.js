@@ -42,3 +42,7 @@ console.log(userParse*10);
 let userInput= parseInt(prompt("insert a number between 5 and 10 inclusive"));
 (userInput >=5 && userInput<=10) ? console.log(userInput + " is between 5 and 10 inclusive"): console.log(false);
 */
+/*Exercise 6: ask the user to enter a number and show if it is less than 5 or greater than 10 - just a yes or no answer is required
+let userInput=parseInt(prompt("insert a number-show if it is less than 5 or greater than 10 "));
+(userInput=5 || userInput>10) ? console.log("yes"): console.log("No");
+*/
