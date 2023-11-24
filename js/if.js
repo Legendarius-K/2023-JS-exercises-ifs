@@ -22,6 +22,18 @@ let userNumber= parseInt(prompt("please insert a number"));
 let userNumber2= parseInt(prompt("CHECK IF NUMBER IS greater or equal"));
 (userNumber2>=5) ? console.log(userNumber2 + " is equal or greatern than 5"): console.log(userNumber2 + " is  NOT equal or greatern than 5");
 */
-//Exercise 3: ask the user to enter a number and show if it is greater than, less than or equal to 5
+/*Exercise 3: ask the user to enter a number and show if it is greater than, less than or equal to 5
 let numberInput= parseInt(prompt("insert a number"));
 (numberInput>5) ? console.log(numberInput + " is greater than 5"): (numberInput<5) ? console.log(numberInput + " is NOT greater than 5"): console.log(numberInput + " is EQUAL to 5");
+
+*//*
+Exercise 4: JS oddity: ask the user to enter a number and show 10 times that number</p>
+    <p>Do it again, but also show the datatype of the user's input. Do this without parsing the input, then again with parsing.</p>
+*/
+let userInput= prompt("put a number");
+console.log(typeof userInput)
+console.log(userInput*10);
+
+let userParse= parseInt(prompt("Parsew here anumber"));
+console.log(typeof userParse)
+console.log(userParse*10);
