@@ -13,3 +13,6 @@ let exercise1 = prompt("Enter a number");
 */
 
 });
+//Exercise 1: ask the user to enter a number and show if it is greater than 5
+let userNumber= parseInt(prompt("please insert a number"));
+(userNumber> 5) ? console.log(userNumber + " is greater than 5"): console.log("not higher than 5");
