@@ -29,7 +29,7 @@ let numberInput= parseInt(prompt("insert a number"));
 *//*
 Exercise 4: JS oddity: ask the user to enter a number and show 10 times that number</p>
     <p>Do it again, but also show the datatype of the user's input. Do this without parsing the input, then again with parsing.</p>
-*/
+
 let userInput= prompt("put a number");
 console.log(typeof userInput)
 console.log(userInput*10);
@@ -37,3 +37,8 @@ console.log(userInput*10);
 let userParse= parseInt(prompt("Parsew here anumber"));
 console.log(typeof userParse)
 console.log(userParse*10);
+*/
+/*Exercise 5: ask the user to enter a number and show if it is between 5 and 10, inclusive
+let userInput= parseInt(prompt("insert a number between 5 and 10 inclusive"));
+(userInput >=5 && userInput<=10) ? console.log(userInput + " is between 5 and 10 inclusive"): console.log(false);
+*/
