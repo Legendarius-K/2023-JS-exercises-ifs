@@ -46,6 +46,11 @@ let userInput= parseInt(prompt("insert a number between 5 and 10 inclusive"));
 let userInput=parseInt(prompt("insert a number-show if it is less than 5 or greater than 10 "));
 (userInput=5 || userInput>10) ? console.log("yes"): console.log("No");
 */
-//Exercise 7: ask the user to enter a number and show if it is less than 5 or greater than 10 or neither - show which one it is
+/*Exercise 7: ask the user to enter a number and show if it is less than 5 or greater than 10 or neither - show which one it is
 let userNumber= parseInt(prompt("insert a number - show if it is less than 5 or greater than 10 or neither"));
 (userNumber<5) ? console.log(userNumber + " is less than 5"): (userNumber>10) ? console.log(userNumber +" is more than 10"): console.log("Neither");
+*/
+//Exercise 8: ask the user to enter two numbers and show which is larger
+let userNumber1= parseInt(prompt("number 1"));
+let userNumber2= parseInt(prompt("number 2"));
+( userNumber1>userNumber2) ? console.log( userNumber1 + " is greater " + userNumber2): console.log(userNumber2 + " is greater " + userNumber1 );
