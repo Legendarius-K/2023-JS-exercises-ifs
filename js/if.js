@@ -50,7 +50,18 @@ let userInput=parseInt(prompt("insert a number-show if it is less than 5 or grea
 let userNumber= parseInt(prompt("insert a number - show if it is less than 5 or greater than 10 or neither"));
 (userNumber<5) ? console.log(userNumber + " is less than 5"): (userNumber>10) ? console.log(userNumber +" is more than 10"): console.log("Neither");
 */
-//Exercise 8: ask the user to enter two numbers and show which is larger
+/*Exercise 8: ask the user to enter two numbers and show which is larger
 let userNumber1= parseInt(prompt("number 1"));
 let userNumber2= parseInt(prompt("number 2"));
 ( userNumber1>userNumber2) ? console.log( userNumber1 + " is greater " + userNumber2): console.log(userNumber2 + " is greater " + userNumber1 );
+*/
+/*Exercise 9: ask the user to enter three <i>different</i> numbers and show them in order from largest to smallest in the same alert</p>
+let userNumber1= parseInt(prompt("number 1"));
+let userNumber2= parseInt(prompt("number 2"));
+let userNumber3= parseInt(prompt("number 3"));
+let numLarge, numMedium, numSmall;
+(userNumber1 > userNumber2 && userNumber1>userNumber3) ? numLarge=userNumber1: (userNumber2>userNumber1 && userNumber2>userNumber3) ? numLarge=userNumber2 : numLarge=userNumber3;
+(userNumber2>userNumber1 && userNumber1>userNumber3) ? numMedium= userNumber1: (userNumber1>userNumber2 && userNumber2>userNumber3) ?numMedium=userNumber2 : numMedium=userNumber3;
+(userNumber2>userNumber1 && userNumber3>userNumber1) ? numSmall= userNumber1: (userNumber1>userNumber2 && userNumber3>userNumber2) ?numSmall=userNumber2 : numSmall=userNumber3;
+console.log(numLarge+ " ==> "+ numMedium +" ==> "+ numSmall)
+*/
